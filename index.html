@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eon | Giyim Markası</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header with EON logo and hamburger menu -->
+    <header id="main-header">
+        <div class="header-container">
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <h1 id="eon-logo">EON</h1>
+        </div>
+    </header>
+    
+    <!-- Decorative elements -->
+    <div class="decorative-elements">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+
+    <!-- Fullscreen Carousel Section -->
+    <section class="fullscreen-carousel">
+        <div class="carousel-container">
+            <div class="carousel-wrapper">
+                <div class="carousel-slide active">
+                    <div class="slide-content">
+                        <h2>Sweatshirtler</h2>
+                        <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <h2>Eşofmanlar</h2>
+                        <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <h2>T-Shirtler</h2>
+                        <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <h2>Jeanler</h2>
+                        <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+                <div class="carousel-slide">
+                    <div class="slide-content">
+                        <h2>Aksesuarlar</h2>
+                        <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Navigation arrows -->
+            <button class="carousel-nav prev-btn">&#10094;</button>
+            <button class="carousel-nav next-btn">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories-section">
+        <div class="container categories-container">
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-image">Jeanler</div>
+                    <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">Sweatler</div>
+                    <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">T-Shirtler</div>
+                    <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+            
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="category-image">Kazaklar</div>
+                    <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="category-card">
+                    <div class="category-image">Aksesuarlar</div>
+                    <button class="explore-btn">İncele <i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gender selection section -->
+    <section class="gender-selection">
+        <div class="gender-buttons">
+            <button class="gender-btn active" data-gender="male">ERKEK</button>
+            <button class="gender-btn" data-gender="unisex">UNISEX</button>
+            <button class="gender-btn" data-gender="female">KADIN</button>
+        </div>
+    </section>
+
+    <!-- Products section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title">Yeni Gelenler</h2>
+            <div class="products-grid" id="products-grid">
+                <!-- Products will be loaded here based on gender selection -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-image">
+                    <!-- Grey placeholder for image -->
+                </div>
+                <div class="newsletter-form">
+                    <h2>Bültene Katıl</h2>
+                    <p>En yeni koleksiyonlarımızdan ve kampanyalarımızdan haberdar olun</p>
+                    <form>
+                        <input type="email" placeholder="E-posta adresinizi girin" required>
+                        <button type="submit" class="subscribe-btn">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>EON</h3>
+                <p>Gece modu gibi karanlık temalı, şık ve modern giyim markası</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>Koleksiyonlar</h4>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> Sweatshirtler</li>
+                    <li><i class="fas fa-chevron-right"></i> Eşofmanlar</li>
+                    <li><i class="fas fa-chevron-right"></i> T-Shirtler</li>
+                    <li><i class="fas fa-chevron-right"></i> Jeanler</li>
+                    <li><i class="fas fa-chevron-right"></i> Aksesuarlar</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Bilgilendirme</h4>
+                <ul>
+                    <li><i class="fas fa-chevron-right"></i> Hakkımızda</li>
+                    <li><i class="fas fa-chevron-right"></i> İletişim</li>
+                    <li><i class="fas fa-chevron-right"></i> Sıkça Sorulan Sorular</li>
+                    <li><i class="fas fa-chevron-right"></i> İade Koşulları</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 EON Giyim. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
